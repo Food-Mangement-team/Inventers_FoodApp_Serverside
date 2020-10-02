@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "420885705249",
-    "firebase_url": "https://foodapp5.firebaseio.com",
-    "project_id": "foodapp5",
-    "storage_bucket": "foodapp5.appspot.com"
+    "project_number": "481743448891",
+    "firebase_url": "https://mad-2020-inventers.firebaseio.com",
+    "project_id": "mad-2020-inventers",
+    "storage_bucket": "mad-2020-inventers.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:420885705249:android:ad87298b06689582c22960",
+        "mobilesdk_app_id": "1:481743448891:android:4ecfe37d98d4a7a983e51e",
         "android_client_info": {
-          "package_name": "com.intentsproj.foodapp5"
+          "package_name": "com.example.mad_2020_inventers"
         }
       },
       "oauth_client": [
         {
-          "client_id": "420885705249-mn91gv1mt47dm6va936743qg53sclv0m.apps.googleusercontent.com",
+          "client_id": "481743448891-552k0lmgfmgmgs10f3m5br5r72cbhkmk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyABcmGr_pDKoLel-_ylTdn7fKLsxcqKG00"
+          "current_key": "AIzaSyB5kNOoDi1nBm6SaS3uUxpC4TDuAr3pa-U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "420885705249-mn91gv1mt47dm6va936743qg53sclv0m.apps.googleusercontent.com",
+              "client_id": "481743448891-552k0lmgfmgmgs10f3m5br5r72cbhkmk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -37,27 +37,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:420885705249:android:c909e20227fc8303c22960",
+        "mobilesdk_app_id": "1:481743448891:android:e4d402ed35943fcd83e51e",
         "android_client_info": {
           "package_name": "com.intentsproj.foodapp5serverside"
         }
       },
       "oauth_client": [
         {
-          "client_id": "420885705249-mn91gv1mt47dm6va936743qg53sclv0m.apps.googleusercontent.com",
+          "client_id": "481743448891-552k0lmgfmgmgs10f3m5br5r72cbhkmk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyABcmGr_pDKoLel-_ylTdn7fKLsxcqKG00"
+          "current_key": "AIzaSyB5kNOoDi1nBm6SaS3uUxpC4TDuAr3pa-U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "420885705249-mn91gv1mt47dm6va936743qg53sclv0m.apps.googleusercontent.com",
+              "client_id": "481743448891-552k0lmgfmgmgs10f3m5br5r72cbhkmk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
