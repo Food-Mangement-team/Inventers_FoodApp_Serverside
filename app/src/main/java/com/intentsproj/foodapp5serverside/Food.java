@@ -21,6 +21,25 @@ public class Food {
         MenyId = menyId;
     }
 
+    public Food(String price, String discount){
+        Price = price;
+        Discount = discount;
+    }
+
+    public String getDiscountedPrice(){
+        String discountedPrice = "";
+
+        try {
+            Double price = Double.parseDouble(this.Price);
+            Double discount = Double.parseDouble(this.Discount);
+            discountedPrice = Double.toString(price-discount);
+        }catch(Exception e){
+            return "parse error";
+        }
+
+        return discountedPrice;
+    }
+
     public String getName() {
         return Name;
     }
@@ -51,6 +70,14 @@ public class Food {
 
     public void setPrice(String price) {
         Price = price;
+
+        try{
+            Double priceDbl = Double.parseDouble(price);
+            if(priceDbl<0)
+                Price = "0";
+        }catch(Exception e){
+            Price = "0";
+        }
     }
 
     public String getDiscount() {

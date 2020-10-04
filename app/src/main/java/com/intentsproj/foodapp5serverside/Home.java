@@ -164,7 +164,6 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                     category.push().setValue(newCategory);
                     Snackbar.make(drawer, "New category" + newCategory.getName() + "was added", Snackbar.LENGTH_SHORT)
                             .show();
-
                 }
             }
         });

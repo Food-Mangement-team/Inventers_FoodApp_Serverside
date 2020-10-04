@@ -317,7 +317,6 @@ public class FoodList extends AppCompatActivity {
             }
         });
 
-
         alertDialog.setView(add_menu_layout);
         alertDialog.setIcon(R.drawable.ic_baseline_shopping_cart_24);
 
@@ -326,7 +325,6 @@ public class FoodList extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
-
 
                 //update information
                 item.setName(edtName.getText().toString());
@@ -339,7 +337,6 @@ public class FoodList extends AppCompatActivity {
                 Snackbar.make(rootLayout, "Food" + item.getName() + "was edited", Snackbar.LENGTH_SHORT)
                         .show();
 
-
             }
         });
         alertDialog.setNegativeButton("NO", new DialogInterface.OnClickListener() {
@@ -349,7 +346,6 @@ public class FoodList extends AppCompatActivity {
             }
         });
         alertDialog.show();
-
     }
 
     //change Image
